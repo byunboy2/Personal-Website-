@@ -1,0 +1,82 @@
+.selfie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    border-color: black;
+    border-style: solid;
+}
+body {
+    background: linear-gradient(to right top, #65dfc9, #2e1c7e);
+    color: black;
+    margin: 0;
+    padding: 14em 14em 14em 20em;
+}
+
+p,
+h3,
+h1,
+.uppercase {
+    text-align: center;
+    font-family: 'Courier New';
+    color: #222;
+}
+
+.b1,
+.b2,
+.b3 {
+    background: white;
+    color: rgb(2, 21, 21);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    transition: transform 0.3s ease;
+    margin-left: auto;
+}
+
+
+
+.b1:hover,
+.b2:hover,
+.b3:hover {
+    transform: translate(-12px, -12px);
+    background-color: white;
+    box-shadow: 3px 4px 5px black
+}
+
+.b1:hover::before,
+.b2:hover::before,
+.b3:hover::before {
+    transform: translate(-6px, -6px)
+}
+
+.b1:hover::after,
+.b2:hover::after,
+.b3:hover::after {
+    transform: translate(12px, 12px)
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left : 0;
+    list-style-type: none;
+ }
+ .navbutton1{
+    margin-left:-40px;
+ }
+li{
+    display:inline-block;
+    margin-left:20px;
+ }
+
+.white{
+    color:black;
+}
+.google{
+    color:#4285F4;
+}
+.linkedin{
+    color:#0A66C2;
+}
