@@ -14,7 +14,6 @@ body {
     margin: 0;
     padding: 14em 14em 14em 20em;
 }
-
 p,
 h3,
 h1,
@@ -23,7 +22,6 @@ h1,
     font-family: 'Courier New';
     color: #222;
 }
-
 .b1,
 .b2,
 .b3 {
@@ -35,9 +33,6 @@ h1,
     transition: transform 0.3s ease;
     margin-left: auto;
 }
-
-
-
 .b1:hover,
 .b2:hover,
 .b3:hover {
@@ -62,6 +57,10 @@ h1,
     top: 0;
     left : 0;
     list-style-type: none;
+    margin-left: -10px;
+    display:flex;
+    justify-content: space-between;
+    color: pink;
  }
  .navbutton1{
     margin-left:-40px;
@@ -74,9 +73,17 @@ li{
 .white{
     color:black;
 }
+.linkedin{
+    color:#0A66C2;
+}
+.github{
+    color:#333;
+}
 .google{
     color:#4285F4;
 }
-.linkedin{
-    color:#0A66C2;
+
+ul{
+    display: inline-block;
+    margin-left: 360px;
 }
