@@ -1,0 +1,8 @@
+.form-fields {
+    display: grid;
+    gap: 1em;
+  }
+
+  .message-field {
+    height: 200px;
+  }

@@ -1,0 +1,14 @@
+.dev-icons-container {
+  display: flex;
+  align-items: center;
+}
+
+.dev-icons {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .dev-icons h6 {
+    text-align: center;
+  }
