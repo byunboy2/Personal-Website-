@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Personal from "./Personal";
 import Portfolio from "./Portfolio";
-import Resume from "./Resume";
 import Contact from "./Contact";
 import Home from "./Home";
 
@@ -16,10 +15,6 @@ function RoutesList() {
         <Route
           path="/personal"
           element={<Personal />}
-        />
-        <Route
-          path="/resume"
-          element={<Resume />}
         />
         <Route
           path="/portfolio"

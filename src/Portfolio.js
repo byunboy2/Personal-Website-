@@ -1,6 +1,8 @@
 import { Card, CardBody, CardTitle, CardText, Container } from "reactstrap";
 import "./Portfolio.css";
-import Jobly from "./Jobly.png";
+import Jobly from "./static/images/Jobly.png";
+import Warbler from "./static/images/Warbler.png";
+
 
 
 
@@ -71,21 +73,6 @@ function Portfolio() {
         </CardBody>
       </Card>
 
-      <Card>
-        <CardBody>
-          <CardTitle>
-            <h1 style={{ textAlign: 'center' }}>Warbler</h1>
-          </CardTitle>
-          <CardText>
-            <Container>
-              <div style={{ textAlign: 'center' }}>
-              <img href={Jobly} ></img>
-                <a href="https://rithm-warbler.onrender.com"  >Click Here For Demo!</a>
-              </div>
-            </Container>
-          </CardText>
-        </CardBody>
-      </Card>
 
       <Card>
         <CardBody>
@@ -95,8 +82,9 @@ function Portfolio() {
           <CardText>
             <Container>
               <div style={{ textAlign: 'center' }}>
-                <img src={Jobly} ></img>
-                <a href="https://react-jobly-frontend.onrender.com/" style={{position:"absolute", zIndex:9999}}>Click Here For Demo!</a>
+                <img src={Jobly} ></img><br/>
+                <p>Jobly is a full stack application built using React, Node, Express, PostgreSQL and Bootstrap. It was inspired by job searching websites like Indeed and Linkedin.</p>
+                <a href="https://react-jobly-frontend.onrender.com/">Click Here For Demo!</a>
               </div>
             </Container>
           </CardText>
@@ -107,17 +95,20 @@ function Portfolio() {
       <Card>
         <CardBody>
           <CardTitle>
-          <h1 style={{ textAlign: 'center' }}>Friender</h1>
+            <h1 style={{ textAlign: 'center' }}>Warbler</h1>
           </CardTitle>
           <CardText>
             <Container>
               <div style={{ textAlign: 'center' }}>
-                <a>Click Here For Demo!</a>
+              <img src={Warbler} ></img><br/>
+                <p>A Twitter Clone - built using Python, Flask, and PostgreSQL</p>
+                <a href="https://rithm-warbler.onrender.com">Click Here For Demo!</a>
               </div>
             </Container>
           </CardText>
         </CardBody>
       </Card>
+
     </section>
   );
 }

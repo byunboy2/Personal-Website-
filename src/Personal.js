@@ -1,5 +1,5 @@
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
-import Selfie from "./Selfie.jpeg";
+import Selfie from "./static/images/Selfie.jpeg";
 import "./Personal.css"
 
 

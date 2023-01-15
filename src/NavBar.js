@@ -14,7 +14,7 @@ function NavBar() {
           <NavLink to="/personal">About</NavLink>
         </NavItem>
         <NavItem>
-          <a href="https://drive.google.com/file/d/1nohLYiBHv9B1G8ZeWJXSkAX09ss6dr2G/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+          <a href="https://drive.google.com/file/d/1fbmDMOoQPguE9QT-crPRf4NPk-yRBQGq/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
         </NavItem>
         <NavItem>
           <NavLink to="/portfolio">Portfolio</NavLink>
