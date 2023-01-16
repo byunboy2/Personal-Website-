@@ -4,12 +4,20 @@
 }
 
 .dev-icons {
-    display: flex;
-    flex-direction: column;
-  }
+  display: flex;
+  flex-direction: column;
+}
+
+.dev-icons h6 {
+  text-align: center;
+}
+
+.link-item:not(:last-child)::after {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 
-  .dev-icons h6 {
-    text-align: center;
-  }
-
+.link-item {
+  margin: 0 10px;
+}
