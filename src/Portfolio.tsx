@@ -4,7 +4,7 @@ import Jobly from "./static/images/Jobly.png";
 import Warbler from "./static/images/Warbler.png";
 import React from 'react';
 
-function Portfolio() {
+const Portfolio: React.FC = () => {
   return (
     <section className="col-md-4">
       <Card className="card">

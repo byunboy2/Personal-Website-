@@ -5,8 +5,6 @@ import Personal from "./Personal";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
-
-
 const RoutesList: React.FC = () => {
   return (
     <div className="RoutesList col-md-8 offset-md-2">
