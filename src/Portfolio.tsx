@@ -2,6 +2,7 @@ import { Card, CardBody, CardTitle, CardText, Container } from "reactstrap";
 import "./Portfolio.css";
 import Jobly from "./static/images/Jobly.png";
 import Warbler from "./static/images/Warbler.png";
+import React from 'react';
 
 function Portfolio() {
   return (
@@ -9,7 +10,7 @@ function Portfolio() {
       <Card className="card">
         <CardBody>
           <CardTitle className="fw-bold text-center mb-3" style={{ fontSize: '1.5rem', textAlign: "center" }}>
-            <h1 class="section-header">Technical Skills</h1>
+            <h1 className="section-header">Technical Skills</h1>
           </CardTitle>
           <CardText style={{ fontSize: '1.2rem' }}>
             <Container className="dev-icons-container">
@@ -79,10 +80,10 @@ function Portfolio() {
               <div style={{ textAlign: 'center' }}>
                 <img src={Jobly} ></img><br />
                 <p>Jobly is a full stack application used to search for jobs. Built using React, Node, Express, PostgreSQL and Bootstrap</p>
-                <div class="text-center">
-                  <a href="https://react-jobly-frontend.onrender.com/" class="btn btn-secondary link-item">Demo</a>
-                  <a href="https://github.com/trevorhudson/react-jobly-frontend" class="btn btn-secondary link-item">Front End</a>
-                  <a href="https://github.com/byunboy2/Express-Jobly" class="btn btn-secondary link-item">Back End</a>
+                <div className="text-center">
+                  <a href="https://react-jobly-frontend.onrender.com/" className="btn btn-secondary link-item">Demo</a>
+                  <a href="https://github.com/trevorhudson/react-jobly-frontend" className="btn btn-secondary link-item">Front End</a>
+                  <a href="https://github.com/byunboy2/Express-Jobly" className="btn btn-secondary link-item">Back End</a>
                 </div>
               </div>
             </Container>
@@ -99,9 +100,9 @@ function Portfolio() {
               <div style={{ textAlign: 'center' }}>
                 <img src={Warbler} ></img><br />
                 <p>Warbler is a full stack application that imitates Twitter. Built using Python, Flask, Bootstrap, HTML, CSS, SqlAlchemy and PostgreSQL</p>
-                <div class="text-center">
+                <div className="text-center">
                   <a href="https://warbler-3r1p.onrender.com/">Demo</a>
-                  <a href="https://github.com/byunboy2/rithm-warbler-Daniel-" class="btn btn-secondary link-item">Back End</a>
+                  <a href="https://github.com/byunboy2/rithm-warbler-Daniel-" className="btn btn-secondary link-item">Back End</a>
                 </div>
               </div>
             </Container>

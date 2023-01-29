@@ -1,15 +1,16 @@
 import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 import Selfie from "./static/images/Selfie.jpeg";
 import "./Personal.css"
+import React from 'react';
 
 
-function Personal() {
+const Personal: React.FC = () => {
   return (
     <section className="col-md-4">
         <Card className="card">
         <CardBody>
           <CardTitle className="fw-bold text-center mb-3" style={{ fontSize: '1.5rem' ,textAlign:"center"}}>
-            <h1 class="section header">About</h1>
+            <h1 className="section header">About</h1>
           </CardTitle>
           <div style={{ width: "100%", textAlign: "center" }}>
             <img src={Selfie} alt="Profile Picture" style={{ display: "inline-block" }} />

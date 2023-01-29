@@ -1,25 +1,22 @@
 import React from "react";
 import NavBar from "./NavBar";
-import { BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import RoutesList from "./RoutesList";
-import "./App.css"
+import "./App.css";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <BrowserRouter>
         <div className="App">
           <NavBar />
           <main>
-          <RoutesList/>
+            <RoutesList />
           </main>
         </div>
       </BrowserRouter>
-      </div>
-  )
-
-}
+    </div>
+  );
+};
 
 export default App;
-
-

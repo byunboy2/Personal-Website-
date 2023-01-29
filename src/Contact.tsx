@@ -17,11 +17,11 @@ function Contact() {
   });
 
 
-  const handleSubmit = (values, { setSubmitting, resetForm }) => {
+  const handleSubmit = (values: {name: string, email: string, message: string},  { setSubmitting, resetForm }: { setSubmitting: (isSubmitting: boolean) => void, resetForm: () => void }) => {
     alert('Your message was sent successfully!');
     resetForm();
     setSubmitting(false);
-  };
+};
 
   return (
     <div>

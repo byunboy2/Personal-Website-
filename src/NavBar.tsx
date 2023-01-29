@@ -3,7 +3,7 @@ import "./NavBar.css";
 import { NavLink, Link } from "react-router-dom";
 import { Nav, NavItem } from "reactstrap";
 
-function NavBar() {
+const NavBar: React.FC = () => {
   return (
     <nav className="Navigation navbar navbar-expand-md">
       <Nav style={{ display: 'flex', flexDirection: 'row' }}>
@@ -23,7 +23,6 @@ function NavBar() {
           <NavLink to="/contact">Contact Me</NavLink>
         </NavItem>
       </Nav>
-
     </nav>
   );
 }
